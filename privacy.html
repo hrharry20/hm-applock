@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HM AppLock – Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p><a href="index.html">← HM AppLock</a></p>
+<h1>Privacy Policy</h1>
+<p class="muted">HM AppLock (package <code>com.hm.applock</code>) · Effective 11 November 2026</p>
+
+<p>HM AppLock is an app locker made by Harbansh Singh, H S Software Solutions. This policy explains
+what the app does with information on your device.</p>
+
+<h2>The short version</h2>
+<ul>
+<li>HM AppLock does <strong>not</strong> collect, upload, sell or share any personal data.</li>
+<li>The app does not request the Internet permission, so it cannot send anything off your device.</li>
+<li>It has no accounts, no ads, no analytics and no third-party tracking libraries.</li>
+<li>Everything the app stores stays in its private storage on your device and is erased when you uninstall it.</li>
+</ul>
+
+<h2>Information stored on your device</h2>
+<table>
+<tr><th>What</th><th>Why</th></tr>
+<tr><td>Your PIN, pattern or password</td><td>To unlock. Only a salted, one-way hash (PBKDF2) is stored, never the secret itself.</td></tr>
+<tr><td>Recovery question and a hash of the answer</td><td>Optional. Lets you reset a forgotten lock.</td></tr>
+<tr><td>The list of apps you chose to lock, and your settings</td><td>To know which apps to protect and how.</td></tr>
+<tr><td>Intruder log: time, the app that was opened and, if you enable it, a front-camera photo</td><td>Optional “Intruder selfie” feature. Photos are saved only in the app’s private storage, shown only inside HM AppLock, and can be deleted with “Clear all”.</td></tr>
+</table>
+
+<h2>Permissions and how they are used</h2>
+<table>
+<tr><th>Permission</th><th>Use</th></tr>
+<tr><td>Usage access</td><td>To see which app has just been opened, so the lock screen can be shown for apps you locked. Usage history is not stored or shared.</td></tr>
+<tr><td>Display over other apps</td><td>To show the lock screen on top of a locked app.</td></tr>
+<tr><td>Accessibility service (“HM AppLock Turbo”, optional)</td><td>Only if you switch it on. It receives the name of the app window that comes to the front so the lock appears instantly. It does not read screen content, text you type, passwords or messages, and it performs no actions on your behalf. Nothing it receives is stored or transmitted.</td></tr>
+<tr><td>Device administrator (optional)</td><td>Only if you turn on “Uninstall protection”. It is used solely to stop the app being uninstalled without your lock. It uses no device policies and cannot erase, lock or change your device.</td></tr>
+<tr><td>Camera (optional)</td><td>Only for the Intruder selfie feature, after repeated wrong unlock attempts.</td></tr>
+<tr><td>Biometrics</td><td>Fingerprint and face unlock are handled by Android. HM AppLock never receives your fingerprint or face data, only a yes/no result.</td></tr>
+<tr><td>Foreground service, notifications, run at startup</td><td>To keep protection running and restart it after a reboot.</td></tr>
+<tr><td>List of installed apps that have a launcher icon</td><td>To show the list of apps you can lock. The list is not stored or shared.</td></tr>
+</table>
+
+<h2>Data sharing</h2>
+<p>None. No data leaves your device, so nothing is shared with the developer or with any third party.</p>
+
+<h2>Deleting your data</h2>
+<p>Use “Clear all” on the Intruders tab to delete intruder photos and logs. Uninstalling HM AppLock
+(turn off Uninstall protection first) deletes everything the app stored. Because nothing is kept on any
+server, there is nothing further to delete.</p>
+
+<h2>Children</h2>
+<p>HM AppLock is a general utility and is not directed at children. It collects no data from anyone.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Harbansh Singh, H S Software Solutions<br>
+Email: <a href="mailto:hssoftwaresolutions2026@gmail.com">hssoftwaresolutions2026@gmail.com</a></p>
+</main>
+</body>
+</html>
