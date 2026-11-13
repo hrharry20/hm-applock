@@ -11,16 +11,18 @@
 <p><a href="index.html">← HM AppLock</a></p>
 <h1>Demo video</h1>
 <p class="muted">HM AppLock (com.hm.applock) · foreground service use and Accessibility Service prominent disclosure</p>
-<video src="demo.mp4" controls playsinline style="width:100%;max-width:360px;border-radius:16px;display:block;margin:16px 0"></video>
-<p><a href="demo.mp4">Download the video (MP4)</a></p>
+<video src="demo.mp4?v=3" controls playsinline style="width:100%;max-width:360px;border-radius:16px;display:block;margin:16px 0"></video>
+<p><a href="demo.mp4?v=3">Download the video (MP4)</a></p>
 <h2>What it shows</h2>
 <ul>
-<li>0:20 – HM AppLock open, one app (Clock) locked, protection on.</li>
-<li>0:32 – The ongoing “HM AppLock is protecting your apps” notification of the foreground service.</li>
-<li>0:42 – Opening the locked app: the lock screen appears on top of it; the PIN opens it.</li>
-<li>1:40 – Settings → Turbo mode: the in-app prominent disclosure for the Accessibility Service API, shown before anything is enabled, with “No thanks” and “Agree and continue”.</li>
-<li>1:50 – After consent, the user turns on “HM AppLock Turbo” in Android Accessibility settings.</li>
-<li>2:15 – With Turbo on, the lock screen appears as soon as the locked app is opened.</li>
+<li>0:05 – First run: welcome screen and creating the PIN.</li>
+<li>0:35 – The setup permissions step (Usage access and Display over other apps).</li>
+<li>0:38 – The in-app prominent disclosure for the Accessibility Service API. It is a full screen shown during normal first-run setup, before anything is enabled. It says what is accessed (the package name of the app that is opened), why (to show the lock screen instantly over locked apps) and what is not accessed, with “Agree” and “No thanks” buttons.</li>
+<li>0:41 – Only after “Agree”: the steps to turn on “HM AppLock Turbo”, then Android Accessibility settings, where the user switches it on.</li>
+<li>1:35 – Back in the app: “Turbo mode is on”. The main screen with the list of apps; the Clock app is locked.</li>
+<li>2:23 – The ongoing notification of the foreground service.</li>
+<li>2:33 – Opening the locked Clock app: the lock screen appears on top of it at once and asks for the PIN.</li>
+<li>The same disclosure screen can be opened at any time from Settings → Turbo mode.</li>
 </ul>
 </main>
 </body>
